@@ -37,10 +37,5 @@
             "@test:phpmd",
             "@test:phpunit"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.0-dev"
-        }
-    },
+    }
 }
