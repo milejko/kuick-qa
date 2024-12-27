@@ -30,7 +30,7 @@
         "test:phpcs": "phpcs",
         "test:phpmd": "phpmd ./src text phpmd.xml.dist",
         "test:phpunit": "XDEBUG_MODE=coverage phpunit",
-        "generate:phpmd-baseline": "phpmd --generate-baseline ./src text phpmd.xml.dist"
+        "generate:phpmd-baseline": "phpmd --generate-baseline ./src text phpmd.xml.dist",
         "test:all": [
             "@test:phpcs",
             "@test:phpstan",
