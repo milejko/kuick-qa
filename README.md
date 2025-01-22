@@ -4,5 +4,4 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/kuick/dotenv.svg?cacheSeconds=3600)](https://packagist.org/packages/kuick/qa-toolkit)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?cacheSeconds=14400)](LICENSE)
 
-# kuick-qa-toolkit
-QA meta-package with popular PHP testing tools
+# QA meta-package with popular PHP testing tools
