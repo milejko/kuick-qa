@@ -1,2 +1,2 @@
-# kuick-qa-toolkit
-QA meta-package with popular PHP tools
+# Kuick QA Toolkit
+QA meta-package with popular PHP testing tools
