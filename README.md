@@ -5,3 +5,19 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?cacheSeconds=14400)](LICENSE)
 
 # QA meta-package with popular PHP testing tools
+1. Add this section to your composer.json file
+```
+"scripts": {
+    "fix:phpcbf": "phpcbf --standard=PSR12 src tests",
+    "test:phpstan": "XDEBUG_MODE=off phpstan --level=9 --no-progress --memory-limit=512M analyse src tests",
+    "test:phpcs": "phpcs -n --standard=PSR12 ./src ./tests",
+    "test:phpmd": "phpmd src text cleancode,codesize,controversial,design,naming,unusedcode",
+    "test:phpunit": "XDEBUG_MODE=coverage phpunit",
+    "test:all": [
+        "@test:phpcs",
+        "@test:phpstan",
+        "@test:phpmd",
+        "@test:phpunit"
+    ]
+}
+```
